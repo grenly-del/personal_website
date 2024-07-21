@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendidikan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        ::-webkit-scrollbar {
+         width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+         background-color: #ececec;
+         border-radius: 6px;
+        }
+        ::-webkit-scrollbar-thumb {
+         background-color: rgb(167, 8, 202);
+         border-radius: 6px;
+        }
+     </style>
+    <script>
+        tailwind.config= {
+            theme: {
+    extend: {
+      fontFamily: {
+        Pop: ['Poppins', 'sans-serif'],
+        Quick: ['Quicksand', 'sans-serif'],
+        Opens: ['Open Sans', 'sans-serif'],
+        Robot: ['Roboto', 'sans-serif'],
+        Logo: ['Permanent Marker', 'cursive']
+      },
+      colors: {
+        color_1: '#050C9C',
+        color_2: '#3572EF',
+        color_3: '#3ABEF9',
+        color_4: '#A7E6FF'
+      }
+    },
+    
+  },
+        }
+    </script>
+</head>
+<body>
+    <section class='mt-14'>
+        <main>
+           
+                <h1 class='text-lg font-bold'>Pendidikan</h1>
+                <p class='text-sm'>Berikut adalah pendidikan yang pernah saya lewati, dari TK sampai saat ini.</p>
+                <main class='mt-5 grid grid-cols-2 gap-5'>
+                    <div class='py-3 px-3 w-[250px] rounded-md bg-[#f3f3f3] drop-shadow-md shadow-black' ">
+                        <p class='text-sm font-bold text-purple-700'>2009 - 2010</p>
+                        <h1 class='font-bold text-xl mb-5'>TK GPDI Treman</h1>
+                        <div class='flex items-center text-xs font-semibold text-purple-700'><div class='bg-purple-700 w-[7px] h-[7px] rounded-full mr-2'></div>5 - 6 Tahun</div>
+                    </div>
+                    <div class='py-3 px-3 w-[250px] rounded-md bg-[#f3f3f3] drop-shadow-md shadow-black' >
+                        <p class='text-sm font-bold text-purple-700'>2010 - 2016</p>
+                        <h1 class='font-bold text-xl mb-5'>SDN Inpres Treman</h1>
+                        <div class='flex items-center text-xs font-semibold text-purple-700'><div class='bg-purple-700 w-[7px] h-[7px] rounded-full mr-2'></div>6 - 12 Tahun</div>
+                    </div>
+                    <div class='py-3 px-3 w-[250px] rounded-md bg-[#f3f3f3] drop-shadow-md shadow-black' >
+                        <p class='text-sm font-bold text-purple-700'>2016 - 2019</p>
+                        <h1 class='font-bold text-xl mb-5'>SMPN 2 Kauditan</h1>
+                        <div class='flex items-center text-xs font-semibold text-purple-700'><div class='bg-purple-700 w-[7px] h-[7px] rounded-full mr-2'></div>12 - 15 Tahun</div>
+                    </div>
+                    <div class='py-3 px-3 w-[250px] rounded-md bg-[#f3f3f3] drop-shadow-md shadow-black' >
+                        <p class='text-sm font-bold text-purple-700'>2019 - 2022</p>
+                        <h1 class='font-bold text-xl mb-5'>SMKN 1 Airmadidi</h1>
+                        <div class='flex items-center text-xs font-semibold text-purple-700'><div class='bg-purple-700 w-[7px] h-[7px] rounded-full mr-2'></div>15 - 18 Tahun</div>
+                    </div>
+                    <div class='py-3 px-3 w-[250px] rounded-md bg-[#f3f3f3] drop-shadow-md shadow-black' >
+                        <p class='text-sm font-bold text-purple-700'>2023 - Sekarang</p>
+                        <h1 class='font-bold text-xl mb-5'>Universitas Klabat</h1>
+                        <div class='flex items-center text-xs font-semibold text-purple-700'><div class='bg-purple-700 w-[7px] h-[7px] rounded-full mr-2'></div>19 Tahun - Sekarang</div>
+                    </div>
+                </main>
+             
+        </main>
+    </section>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
